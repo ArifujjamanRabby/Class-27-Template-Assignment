@@ -1,0 +1,268 @@
+@media (max-width: 1600px) {
+    article p {
+        padding: 10px 0;
+    }
+}
+@media (max-width: 1450px) {
+    .artical-image {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .artical-image img {
+        width: inherit;
+    }
+    article {
+        width: 100%;
+        margin-right: 0%;
+    }
+    article {
+        margin-top: 2%;
+    }
+    .about-title p {
+        padding: 20px 0;
+    }
+}
+@media (max-width: 1350px) {
+    .banner {
+        padding: 170px 0;
+    }
+    .banner-content h1 {
+        font-size: 4em;
+        margin-bottom: 16px;
+    }
+    .banner-content p {
+        font-size: 1.5em;
+        margin-bottom: 15px;
+    }
+    .about-service {
+        padding: 60px 0;
+    }
+    .service-item {
+        flex-basis: 23%;
+    }
+    .service {
+        padding: 30px 0;
+    }
+    .about-service {
+        padding: 30px 0;
+    }
+    .about-section {
+        padding: 40px 0;
+    }
+}
+@media (max-width: 1100px) {
+    .header-menu ul li a {
+        padding: 0 10px;
+    }
+    .banner {
+        padding: 115px 0;
+    }
+    .banner-content h1 {
+        font-size: 3em;
+        margin-bottom: 10px;
+    }
+    .banner-content p {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+    .banner-content a {
+        padding: 10px 20px;
+    }
+    .about-service-content h2 {
+        margin-bottom: 16px;
+    }
+
+    .service-item {
+        flex-basis: 23%;
+    }
+    .artical-image {
+        width: 100%;
+        margin-left: 0;
+    }
+    article {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+@media (max-width: 950px) {
+    .fixed-width{
+        width: 100%;
+        padding: 0 30px;
+    }
+    .header-logo h1 {
+        color: #fff;
+        font-size: 1.5em;
+    }
+    header{
+        position: relative;
+    }
+    .header-menu span {
+        font-size: 35px;
+        color: #fff;
+    }
+    .header-menu .bar{
+        display: block;
+    }
+    .header-menu ul {
+        display: none;
+        position: relative;
+        right: -38px;
+        top: -1px;
+    }
+    .header-menu ul li{
+        display: block;
+    }
+    .header-menu ul li a {
+        line-height: 34px;
+    }
+    .header-menu .menu-btn {
+        display: block;
+        position: absolute;
+        top: 13px;
+        right: 44px;
+        height: 29px;
+        width: 34px;
+        opacity: 0;
+    }
+    .header-menu .menu-btn:checked ~ ul{
+        display: block;
+    }
+    .header-menu .menu-btn:checked ~ .bar{
+        display: none;
+    }
+    .header-menu .menu-btn:checked ~ .cross{
+        display: block;
+        color: aqua;
+    }
+    .about-service {
+        padding: 25px 0;
+    }
+    .service {
+        padding: 25px 0;
+    }
+    .service-item {
+        flex-basis: 48%;
+        margin-bottom: 2%;
+        margin-right: 2%;
+    }
+    .service-item:nth-child(2n+n){
+        margin-right: 0;
+    }
+    .about-section {
+        padding: 25px 0;
+    }
+    .about-title p {
+        padding: 20px 0;
+    }
+    .artical-content {
+        padding: 0;
+    }
+    .contact {
+        padding: 40px 0 0;
+    }
+    .m-l {
+        margin-left: 0;
+    }
+    .contact-details {
+        width: 100%;
+        margin: 0 0 16px;
+        border: 1px solid #6ebe9a;
+        
+        padding-top: 16px;
+    }
+    .social-menu {
+        background-color: #6ebe9a;
+        padding: 16px 0;
+    }
+    footer {
+        padding: 10px 0;
+    }
+
+}
+@media (max-width: 768px) {
+    .banner {
+        padding: 75px 0;
+    }
+    .banner-content h1 {
+        font-size: 2em;
+    }
+    .banner-content p {
+        font-size: 1em;
+    }
+    .banner-content a {
+        padding: 10px 20px;
+        margin-top: 5px;
+    }
+    .about-service-content h2 {
+        margin-bottom: 8px;
+        font-size: 1.5rem;
+    }
+    .about-service-content p {
+        font-size: .8rem;
+    }
+    .header-logo {
+        width: 50%;
+    }
+    .header-menu {
+        width: 50%;
+    }
+    .contact-title p {
+        padding: 20px 0;
+    }
+    .social-menu ul li {
+        display: inline-block;
+        margin-left: 10px;
+    }
+    footer p {
+        font-size: .8em;
+        font-weight: 600;
+    }
+}
+@media (max-width: 670px) {
+    .fixed-width {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .header-menu .menu-btn {
+        right: 34px;
+    }
+    .about-service {
+        padding: 35px 0;
+    }
+    .about-section {
+        padding: 16px 0;
+    }
+    .about-title p {
+        padding: 16px 0;
+    }
+    .contact {
+        padding: 25px 0;
+    }
+    .contact-title p {
+        padding: 15px 0;
+    }
+
+
+}
+@media (max-width: 550px) {
+    .header-menu .menu-btn {
+        right: 21px;
+    }
+    .banner {
+        padding: 40px 0;
+    }
+    .banner-content h1 {
+        font-size: 1.5em;
+    }
+    .about-service {
+        padding: 20px 0;
+    }
+    .service-item {
+        flex-basis: 100%;
+        margin-bottom: 4%;
+        margin-right: 0;
+    }
+    .service-item:nth-child(2n+2){
+        margin-right: 0;
+    }
+}
