@@ -106,7 +106,7 @@
     .header-menu ul {
         display: none;
         position: relative;
-        right: -38px;
+        right: 0px;
         top: -1px;
     }
     .header-menu ul li{
@@ -114,6 +114,7 @@
     }
     .header-menu ul li a {
         line-height: 34px;
+        padding: 0;
     }
     .header-menu .menu-btn {
         display: block;
